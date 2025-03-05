@@ -19,6 +19,10 @@ public class Shape {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public double calcArea(){
         return 0;
     }
