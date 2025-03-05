@@ -16,7 +16,7 @@ public class Circle extends Shape {
     @Override
     public String toString() {
         return
-                "круг с радиусом " + radius + " см";
+                "кругиииииииииииии с радиусом " + radius + " см";
 
     }
 }
