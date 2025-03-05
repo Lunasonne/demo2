@@ -18,7 +18,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "прямоугольник " + sideA + " см x " + sideB + " см";
+        return "прямоугольникиииииииииииииии " + sideA + " см x " + sideB + " см";
 
     }
 }
