@@ -17,6 +17,6 @@ public class Square extends Shape {
     @Override
     public String toString() {
         return
-                "квадратыыыыыыыыыыыыыыыыыы " +  sideA + " см x " + sideA+ " см";
+                "КВАДРАТ " +  sideA + " см x " + sideA+ " см";
     }
 }
