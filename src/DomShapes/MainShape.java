@@ -27,8 +27,8 @@ public class MainShape {
 
         double summ = 0;
 
-        for (int i = 0; i < shapes.size(); i++) {
-            summ += shapes.get(i).calcArea();
+        for (Shape item : shapes) {
+            summ += item.calcArea();
         }
         String formatted = String.format("%.2f", summ);
         System.out.println("суммарная площадь всех фигур составляет: " + formatted + "кв.см");
@@ -36,8 +36,7 @@ public class MainShape {
 
         Circle circle3 = new Circle("Circle3", 4);
 
-        for (int i = 0; i < shapes.size(); i++) {
-            Shape findShapes = shapes.get(i);
+        for (Shape findShapes : shapes) {
             if (circle3.equals(findShapes)) {
                 System.out.println("искомая фигура имеется");
                 break;
@@ -50,13 +49,13 @@ public class MainShape {
    int  value = 100;
     ArrayList<Shape> maxArea  = new ArrayList<>();
 
-        for (int i = 0; i < shapes.size(); i++) {
-        double currentShape  = shapes.get(i).calcArea();
+        for (Shape shape : shapes) {
+            double currentShape = shape.calcArea();
 
-        if (value < currentShape)  {
-           maxArea.add(shapes.get(i));
+            if (value < currentShape) {
+                maxArea.add(shape);
+            }
         }
-    }
         System.out.println(" с площадью, больше, чем " +  value +" кв. см: "+ maxArea);
 
 
