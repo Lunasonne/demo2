@@ -57,7 +57,7 @@ public class MainShape {
             }
         }
         System.out.println(" с площадью, больше, чем " +  value +" кв. см: "+ maxArea);
-
+        System.out.println(" ");
 
 }
 
