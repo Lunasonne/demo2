@@ -57,7 +57,7 @@ public class MainShape {
            maxArea.add(shapes.get(i));
         }
     }
-        System.out.println("Фигурыыыыыыыыыыыыы с площадью, больше, чем " +  value +" кв. см: "+ maxArea);
+        System.out.println(" с площадью, больше, чем " +  value +" кв. см: "+ maxArea);
 
 
 }
